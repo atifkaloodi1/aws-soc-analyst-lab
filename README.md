@@ -1,7 +1,9 @@
-# AWS SOC Analyst Lab
+<img width="1024" height="1536" alt="a929627f-5577-4d6d-bc59-3b1ef53a0fad" src="https://github.com/user-attachments/assets/89311390-c2da-4844-a84e-8ff43dd0541b" /># AWS SOC Analyst Lab
 
 ## Objective
 Simulate a Security Operations Center (SOC) in AWS using CloudTrail, GuardDuty, Security Hub, and a SIEM to monitor, detect, and respond to threats.
+
+![Uploading a929627f-5577-4d6d-bc59-3b1ef53a0fad.png…]()
 
 ## Project Phases
 1. AWS Account Setup & Security Baseline
@@ -14,4 +16,5 @@ Simulate a Security Operations Center (SOC) in AWS using CloudTrail, GuardDuty, 
 - SIEM dashboards
 - Sample alerts & responses
 - Documentation of each phase
+
 
