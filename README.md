@@ -3,7 +3,7 @@
 ## Objective
 Simulate a Security Operations Center (SOC) in AWS using CloudTrail, GuardDuty, Security Hub, and a SIEM to monitor, detect, and respond to threats.
 
-![Uploading a929627f-5577-4d6d-bc59-3b1ef53a0fad.png…]()
+
 
 ## Project Phases
 1. AWS Account Setup & Security Baseline
