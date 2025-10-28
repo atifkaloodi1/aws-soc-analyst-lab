@@ -14,3 +14,4 @@ Simulate a Security Operations Center (SOC) in AWS using CloudTrail, GuardDuty, 
 - SIEM dashboards
 - Sample alerts & responses
 - Documentation of each phase
+
