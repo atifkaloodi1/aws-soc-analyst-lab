@@ -88,6 +88,36 @@ This document outlines the completed setup for **Phase 1** of the AWS SOC Analys
 
 ---
 
+# 🛡️ SOC Analyst Lab – Phase 2: EC2 Web Server Deployment
+
+## ✅ Objective
+Successfully deploy and publicly access an Apache HTTPD web server on an EC2 instance as part of the SOC Analyst Lab.
+
+---
+
+## 🖥️ EC2 Instance Configuration
+
+- **AMI**: Amazon Linux 2
+- **Instance Type**: t2.micro
+- **Subnet**: SOC-Public-Subnet
+- **Security Group**: SOC-Web-SG
+- **Ports Opened**:
+  - SSH (22) – for remote access
+  - HTTP (80) – for public web access
+- **Public IP Assigned**: Yes
+
+---
+
+## 🔧 Apache HTTPD Setup
+
+Commands executed on the EC2 instance:
+
+```bash
+sudo yum update -y
+sudo yum install httpd -y
+sudo systemctl start httpd
+sudo systemctl enable httpd
+
 ## 📌 Next Steps
 
 Proceed to **Phase 2: EC2 Instance Deployment** to launch your Windows and Linux servers and begin configuring monitoring and detection tools.
