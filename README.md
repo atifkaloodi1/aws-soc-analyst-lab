@@ -118,7 +118,11 @@ sudo yum install httpd -y
 sudo systemctl start httpd
 sudo systemctl enable httpd
 
-## 📌 Next Steps
 
-Proceed to **Phase 2: EC2 Instance Deployment** to launch your Windows and Linux servers and begin configuring monitoring and detection tools.
+📌 Next Steps
 
+Proceed to:
+
+Install CloudWatch Agent for log monitoring
+Enable AWS CloudTrail, GuardDuty, and Security Hub
+Configure centralized logging to Amazon S3
